@@ -42,6 +42,8 @@ Como vemos se han juntado los tres fragmentos que teniamos en un solo archivo de
 
 Para este playbook necesitaremos pequeños scripts separados , en este caso de instalacion de mysql.
 
+![Captura del playbook](imagenes/playbook4.png)
+
 
 
 ```yaml
