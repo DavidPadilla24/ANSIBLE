@@ -18,7 +18,7 @@ Para este playbook necesitaremos archivos de configuracion separados y lo vamos 
 
 ```yaml
 - name: Unir fragmentos de configuración de Apache en un servidor Debian
-  hosts: debian_servers  # Reemplazar con el nombre de tu host o grupo de hosts
+  hosts: debian1  # Reemplazar con el nombre de tu host o grupo de hosts
   become: true  # Permite ejecutar el playbook con permisos de superusuario
   tasks:
     - name: Unir fragmentos de la configuración de Apache
