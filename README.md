@@ -60,6 +60,7 @@ Para este playbook necesitaremos pequeños scripts separados , en este caso de i
 ```
 Comando para lanzar playbook ``` ansible-playbook nombre_playbook```
 
+![Captura del playbook](imagenes/playbook5.png)
 
 
 
