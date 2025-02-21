@@ -40,7 +40,7 @@ Como vemos se han juntado los tres fragmentos que teniamos en un solo archivo de
 
 ### Ejemplo 2: Unir scripts
 
-Para este playbook necesitaremos pequeños scripts separados , en este caso de instalacion de mysql.
+Para este playbook necesitaremos pequeños scripts separados , en este caso de instalacion y configuracion de mysql.
 
 ![Captura del playbook](imagenes/playbook4.png)
 
