@@ -62,6 +62,10 @@ Comando para lanzar playbook ``` ansible-playbook nombre_playbook```
 
 ![Captura del playbook](imagenes/playbook5.png)
 
+Observamos que nos aparece changed , vamos a comprobarlo
+
+
+
 
 
 
