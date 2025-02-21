@@ -33,3 +33,6 @@ Comando para lanzar playbook ``` ansible-playbook nombre_playbook```
 Observamos que nos aparece changed , vamos a comprobarlo
 
 ![Captura del playbook](imagenes/playbook3.png)
+
+
+Como vemos se han juntado los tres fragmentos que teniamos en un solo archivo de configuracion.
