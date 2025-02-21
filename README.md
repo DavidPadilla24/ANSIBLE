@@ -49,14 +49,19 @@ Para este playbook necesitaremos pequeños scripts separados , en este caso de i
 ```yaml
 
 - name: Unir fragmentos de un script de instalación en un solo archivo
-  hosts: debian_servers  # Reemplazar con tu host o grupo de hosts
+  hosts: debian1  # Reemplazar con tu host o grupo de hosts
   become: true  # Permite ejecutar el playbook con privilegios de superusuario
   tasks:
     - name: Unir fragmentos del script de instalación de MySQL
       ansible.builtin.assemble:
-        src: /home/user/mysql_install/  # Ruta local donde están los fragmentos
+        src: /home/usuario/mysql_install/  # Ruta local donde están los fragmentos
         dest: /usr/local/bin/mysql_install.sh  # Ruta de destino para el script combinado
         mode: '0755'  # Establecer permisos para que el archivo sea ejecutable
 ```
+Comando para lanzar playbook ``` ansible-playbook nombre_playbook```
+
+
+
+
 
 
