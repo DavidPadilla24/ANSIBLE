@@ -73,7 +73,11 @@ Vemos que ya nos a unido los pequeños scripts de instalacion en uno solo. Es mu
 
 ## 3.- Referencias
 
-https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assemble_module.html
+- https://docs.ansible.com/ansible/latest/collections/ansible/builtin/assemble_module.html
+- [Manuel Domínguez](https://github.com/mftienda)
+
+# Autor
+[David Alvarez Padilla](https://github.com/DavidPadilla24)
 
 
 
