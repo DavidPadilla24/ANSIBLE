@@ -25,4 +25,9 @@ Para este playbook necesitaremos archivos de configuracion separados y lo vamos 
       ansible.builtin.assemble:
         src: /home/usuario/apache_fragments/  # Ruta local donde están los fragmentos
         dest: /etc/apache2/apache2.conf  # Ruta de destino donde se combinarán los archivos
+```
+Comando para lanzar playbook ``` ansible-playbook nombre_playbook```
 
+![Captura del playbook](imagenes/playbook2.png)
+
+Observamos que nos aparece changed , vamos a comprobarlo
