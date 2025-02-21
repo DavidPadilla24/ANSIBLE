@@ -11,13 +11,17 @@ El módulo `assemble` de Ansible se utiliza para combinar múltiples archivos en
 
 ### Ejemplo 1: Unir archivos de configuración
 
-Supongamos que tienes varios fragmentos de un archivo de configuración que deseas combinar en un solo archivo en el servidor remoto.
+Para este playbook necesitaremos archivos de configuracion separados y lo vamos a juntar en uno solo. Por ejemplo de apache. 
+
+
 
 ```yaml
-- name: Combine configuration files into one
-  hosts: all
+- name: Unir fragmentos de configuración de Apache en un servidor Debian
+  hosts: debian_servers  # Reemplazar con el nombre de tu host o grupo de hosts
+  become: true  # Permite ejecutar el playbook con permisos de superusuario
   tasks:
-    - name: Assemble multiple config files into one
+    - name: Unir fragmentos de la configuración de Apache
       ansible.builtin.assemble:
-        src: /path/to/config/fragments/
-        dest: /path/to/destination/config.conf
+        src: /home/usuario/apache_fragments/  # Ruta local donde están los fragmentos
+        dest: /etc/apache2/apache2.conf  # Ruta de destino donde se combinarán los archivos
+
