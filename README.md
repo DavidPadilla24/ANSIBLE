@@ -13,6 +13,7 @@ El módulo `assemble` de Ansible se utiliza para combinar múltiples archivos en
 
 Para este playbook necesitaremos archivos de configuracion separados y lo vamos a juntar en uno solo. Por ejemplo de apache. 
 
+![Captura del playbook](imagenes/ejemploplaybook.png)
 
 
 ```yaml
