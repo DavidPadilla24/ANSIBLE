@@ -67,7 +67,7 @@ Observamos que nos aparece changed , vamos a comprobarlo
 ![Captura del playbook](imagenes/playbook6.png)
 
 
-Vemos que ya nos a unido los pequeños scripts de instalacion en uno solo. Es muy util porque habiendo unido los pequeños scripts podemos instalar y configurar mysql en uno solo.
+Vemos que ya nos han unido los pequeños scripts de instalacion en uno solo. Es muy util porque habiendo unido los pequeños scripts podemos instalar y configurar mysql en uno solo.
 
 
 
