@@ -1,5 +1,6 @@
 # ANSIBLE
 
+![PORTADA]([img/portadaAnsible.jpg](https://www.strsistemas.com/sites/default/files/imagen_ansible.jpg)
 # Estudio del Módulo `assemble` en Ansible
 
 ## 1.- Nombre del módulo: `assemble`
